@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>GCenapu_Business</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GCenapu-Contracts\GCenapu-Contracts.csproj" />
+    <ProjectReference Include="..\GCenapu-Data\GCenapu-Data.csproj" />
+    <ProjectReference Include="..\GCenapu-Entity\GCenapu-Entity.csproj" />
+  </ItemGroup>
+
+</Project>
